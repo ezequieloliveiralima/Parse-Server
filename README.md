@@ -36,6 +36,11 @@ Chave mestra da sua aplicação
 PROTOCOL
 http:// ou https:// dependendo da sua prefência (https:// não testado, porém na teoria, após a troca de valores, reinicie a sua aplicação)
 
+Para isso segue o comando:
+
+rhc set-env 'CHAVE=VALOR' --app nome_app
+
+
 Clone seu app do openshift (rhc git clone nome_aplicação)
 
 Clone este repositório em algum lugar e copie a aplicação para dentro (se clonar dentro do clone do openshift, haverá dois .git, e isso não é bom)
